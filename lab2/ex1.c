@@ -13,7 +13,7 @@ int main(void)
     n = a-1;
     do
     {
-     n=n/10;
+     n=n/2;
      b++;   
     } while (n>0);
     printf("The unsigned int bit is %d\n",b);
